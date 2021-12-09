@@ -1,0 +1,95 @@
+/* //////////////////// */
+/* Media queries for Desktop */
+/* //////////////////// */
+
+/* Small-phones width 350px */
+@media only screen and (max-width: 21.875em) {
+  html {
+    font-size: 50%;
+    /* 1rem = 8px */
+  }
+}
+
+/* Desktop width 1000px */
+@media only screen and (min-width: 62.5em) {
+  /* //////////////////// */
+  /* General css*/
+  /* //////////////////// */
+
+  body {
+    background-image: url(./assets/wavy_background.svg);
+  }
+
+  .hero-text-container {
+    text-align: left;
+  }
+
+  .heading {
+    font-size: 6.4rem;
+  }
+
+  /* //////////////////// */
+  /* Style css*/
+  /* //////////////////// */
+
+  /* //////////////////// */
+  /* Header Styles */
+  /* //////////////////// */
+
+  .top-header {
+    display: inline-block;
+    padding: 0;
+    position: absolute;
+    top: 6%;
+    left: 14rem;
+  }
+
+  .logo-container__img {
+    height: 5rem;
+  }
+
+  /* //////////////////// */
+  /* Hero section */
+  /* //////////////////// */
+
+  .landing-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 5%;
+  }
+
+  .hero-image {
+    height: 100vh;
+    flex-basis: 45%;
+    max-width: 61rem;
+    margin: 0;
+  }
+
+  .hero-text-container {
+    order: -1;
+    padding: 0;
+    margin-top: 15%;
+    margin-left: 14rem;
+    flex-basis: 45%;
+  }
+
+  .heading {
+    font-size: 6.4rem;
+  }
+
+  .paragraph {
+    font-size: 1.6rem;
+    max-width: 75%;
+    margin-left: 0;
+  }
+
+  /* //////////////////// */
+  /* Form Component */
+  /* //////////////////// */
+
+  .user-form {
+    margin: 0;
+    max-width: 75%;
+  }
+}

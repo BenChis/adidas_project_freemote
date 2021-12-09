@@ -1,0 +1,97 @@
+/* Font family */
+
+@font-face {
+  font-family: "AdiHaus";
+  src: URL("https://assets.codepen.io/6060109/adihaus_regular.ttf")
+    format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "AdiHaus";
+  src: url("https://assets.codepen.io/6060109/adihaus_bold.ttf")
+    format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* Global reset and settings */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  min-height: 100vh;
+  min-width: 100%;
+  font-size: 62.5%;
+  /* 1rem = 10px */
+  font-weight: 400;
+}
+
+body {
+  font-family: "AdiHaus", sans-serif;
+  line-height: 1;
+  font-weight: normal;
+}
+
+/* Custom properties */
+
+:root {
+  --color-dark-heading: #423a3a;
+  --color-black-neutral: #333333;
+  --color-light-heading: #2f80ed;
+  --color-white: #fff;
+}
+
+/* Typography */
+
+.hero-text-container {
+  text-align: center;
+}
+
+.heading {
+  color: var(--color-dark-heading);
+  font-size: 4.8rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1;
+  letter-spacing: 5px;
+}
+
+.heading-primary--light,
+.heading-primary--block {
+  display: block;
+}
+
+.heading-primary--light {
+  color: var(--color-light-heading);
+  font-weight: 400;
+}
+
+.paragraph {
+  font-size: 1.4rem;
+  line-height: 2;
+  margin: 0 auto 2rem auto;
+  width: 80%;
+  max-width: 40rem;
+}
+
+/* Utilites */
+
+.u-margin-bottom--smaller {
+  margin-bottom: 1.5rem;
+}
+.u-margin-bottom--small {
+  margin-bottom: 3rem;
+}
+.u-margin-bottom--medium {
+  margin-bottom: 5rem;
+}
+.u-margin-bottom--big {
+  margin-bottom: 8rem;
+}

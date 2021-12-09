@@ -1,0 +1,22 @@
+{
+  "name": "adidas_project_freemote",
+  "version": "1.0.0",
+  "description": "Submission for first project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BenChis/adidas_project_freemote.git"
+  },
+  "keywords": [
+    "freemote"
+  ],
+  "author": "Benjamin Scharf",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BenChis/adidas_project_freemote/issues"
+  },
+  "homepage": "https://github.com/BenChis/adidas_project_freemote"
+}
